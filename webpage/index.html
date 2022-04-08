@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Prevoz putnika Šeha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Prevoz putnika Šeha</h1>
+  <p>Vršimo <b>povoljan</b> prevoz putnika na široj teritorij BiH</p>
+</div>
+
+<div class="navbar">
+  <a href="Prevoz putnika.html" class="active">Početna</a>
+  <a href="Destinacije.html">Destinacije</a>
+  
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>O nama</h2>
+    <h5>Prevoz putnika</h5>
+    
+    <p>Vršimo prevoz putnika na široj teritorij Bosne i Hercegovine</p>
+    <p>Također, vršimo i prevoz van BiH, u Hrvatsku, Crnu Goru, Albaniju...</p>
+    <p>Naravno, uz dogovor sa vozačem vršimo prevoz i na dalje destinacije.</p>
+    <h3>Slike vozila</h3>
+    <p></p>
+    <img src="auto1.jpg" style="height: 190px;"><br>
+    <img src="auto2.jpg" style="height: 190px;"><br>
+    <img src="auto3.jpg" style="height: 190px;;"><br>
+    <img src="auto4.jpg" style="height: 190px;"><br>
+    <img src="auto5.jpg" style="height: 190px;"><br>
+    <img src="auto6.jpg" style="height: 190px;"><br>
+  </div>
+  <div class="main">
+    <h2>Kontakt</h2>
+    <p><b style="font-family: Verdana, Arial, 'Times New Roman', sans-serif, serif">Kontakt telefon:   <a href="tel:+38761256125">061-256-125</a></p1></b></p>
+    <p style="font-size: larger;">Dostupni i na Viber i WhatsApp !</p>
+    <p><b style="font-family: Verdana, Arial, 'Times New Roman', sans-serif, serif">Kontakt mail:   <a href="mailto:smirsad67@hotmail.com">smirsad67@hotmail.com</a></b></p><br>
+    <hr/>
+    <br>
+    <br>
+    <h2>Kontaktirajte nas i na Facebook-u</h2>
+    <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/hr_HR/sdk.js#xfbml=1&version=v13.0" nonce="20GzdzU9"></script>
+
+        <div class="fb-page" data-href="https://www.facebook.com/smirsad67/about/?ref=page_internal" data-tabs="timeline" data-width="1000" data-height="7000" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/smirsad67/about/?ref=page_internal" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/smirsad67/about/?ref=page_internal">Prevoz Putnika Seha</a></blockquote></div>
+        <br>
+        <br>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92005.50765554262!2d18.312951577485016!3d43.893701911274995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758cbb1ed719bd1%3A0x562ecda6de87b33e!2sSarajevo!5e0!3m2!1shr!2sba!4v1648299678652!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Prevoz putnika "Šeha", vrši prevoz putnika u Sarajevu i na širem području Bosne i Hercegovine, te obezbjeđuje neizostavno zadovoljstvo putovanja i udobnost.</p><br>
+        <p>Kombi vozilo Volkswagen T5 s klimom garantuje komfor i uživanje.</p>
+        <p>Po povoljnim cijenama možete iznajmiti vozilo sa iskusnim vozačem.</p><br>
+        <p>Za cijenu, vrijeme i mjesto polaska i odlaska, te ostale informacije javite nam se na kontak telefon ili preko e-maila.</p><br>
+        <p>Vama na usluzi i raspologanju, vaš Šeha.</p>
+    </div>
+</div>
+
+<div class="footer">
+  <h2>Prevoz putnika Šeha</h2>
+</div>
+<style>
+    hr{
+        border-top: 3px solid black;
+    }
+</style>
+</body>
+</html>
